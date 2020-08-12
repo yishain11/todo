@@ -1,0 +1,53 @@
+header {
+    flex-direction: row;
+    width: 70%;
+    overflow-x: auto;
+    margin: auto;
+    padding: 5px;
+    align-content: center;
+    justify-content: center;
+    align-items: center; 
+}
+
+.notesContainer {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    overflow-x: auto;
+    margin: auto;
+    padding: 5px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.note{
+    background-color: brown;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.noteTxt {
+    margin: auto;
+    background-color: yellow;
+    order: 1;
+}
+
+.noteDate {
+    margin: auto;
+    background-color: green;
+    order: 2;
+}
+
+.noteHours {
+    margin: auto;
+    background-color: purple;
+    order: 3; 
+}
+
